@@ -9,14 +9,19 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             line-height: 1.6;
+            background-color: #121212; /* Dark background */
+            color: #fff; /* Light text */
         }
-        h1, h2, h3 {
-            color: #333;
+        h1, h2, h3 {            color: #bb86fc; /* Purple-ish heading color */
         }
         .section {
             margin-bottom: 20px;
-        }        .summary {
+            border-bottom: 1px solid #373737; /* Darker border */
+            padding-bottom: 10px;
+        }
+        .summary {
             font-style: italic;
+            color: #ddd;
         }
         .skills {
             list-style-type: none;
@@ -31,19 +36,28 @@
         }
         .projects li {
             margin-bottom: 10px;
+            border-left: 3px solid #bb86fc; /* Highlight project */
+            padding-left: 10px;
         }
         .project-description {
             margin-top: 5px;
+            color: #ddd;
         }
         .employment {
             margin-bottom: 15px;
         }
         a {
-            color: #007BFF;
+            color: #03dac6; /* Teal links */
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
+        }
+        /* Add a subtle shadow to sections */
+        .section {
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -84,7 +98,8 @@
         <ul>
             <li><strong>Traffic Light Recognition (IP URL):</strong> The present disclosure is directed to a traffic light recognition system and method for advanced driver assistance systems (ADAS) and robust to variations in illumination, partial occlusion, climate, shape and angle at which traffic light is viewed.</li>
             <li><strong>Efficient Image Recognition (IP URL):</strong> Our invention facilitates grouping similar image classes for recognition by extracting features from various images and assessing their correlation, streamlining the process of image recognition</li>
-        </ul>    </div>
+        </ul>
+    </div>
 
     <div class="section">
         <h2>PUBLICATIONS &amp; RECOGNITIONS</h2>
@@ -201,8 +216,7 @@
 
     <div class="section">
         <h2>CERTIFICATIONS</h2>
-        <ul>
-            <li>Generative AI with Large Language Models</li>
+        <ul>            <li>Generative AI with Large Language Models</li>
             <li>Introduction to Machine Learning in Production</li>
             <li>Coursera-DeepLearningSpecialization</li>
         </ul>
